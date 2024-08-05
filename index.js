@@ -6,7 +6,7 @@ const getProxySite = (host, rootDomain) => {
   return host.split(`.${rootDomain}`)[0]; 
 }
  
-const currentDomain = "serp.ing";
+const currentDomain = "rs.once.pp.ua";
 
 async function handleRequest(request) {
   const url = new URL(request.url);
